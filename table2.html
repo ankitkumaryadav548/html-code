@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         table,th,td{
+          border: 5px solid black;
+          height: 50px;
+          width: 100px;
+          border-collapse:collapse;
+          text-align: center;
+          padding:30px;
+          font-size: larger;
+         }
+         td:hover{
+            color:red;
+         }
+         tr:hover{
+            color:rgb(42,165,101);
+         }
+         tr:nth-child(even){
+            background-color: magenta;
+         }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th colspan="2">Telephone</th>
+            
+            
+        </tr>
+        <tr>
+            <td rowspan="2">ABC</td>
+            <td>20</td>
+            <td>65456444</td>
+            <td>65456444</td>
+        </tr>
+        <tr>
+            
+            <td>25</td>
+            <td>5453345346</td>
+            <td>5453345346</td>
+        </tr>
+        <tr>
+            <td>ABC</td>
+            <td>26</td>
+            <td>7566892867</td>
+            <td>7566892867</td>
+        </tr>
+        <tr>
+            <td>ABC</td>
+            <td>28</td>
+            <td>35436849</td>
+            <td>35436849</td>
+        </tr>
+    </table>
+</body>
+</html>

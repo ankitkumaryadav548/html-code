@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 80px;
+    background-color:magenta;
+    color: white;
+    display: flex;
+}
+.nav-logo{
+    height: 70px;
+    width: 100%;
+}
+.logo{
+    /* background-image:url("Amazon.jpg"); */
+    /* background-size:cover; */
+    height: 80px;
+    width: 100%;
+}
+.border{
+    border:2px solid white
+}
+.border:hover{
+    border: 2px solid white;
+}

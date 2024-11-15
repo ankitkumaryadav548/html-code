@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1{
+            height: 85px;
+            background-color: grey;
+            border: 1px solid white;
+            margin-left: 0px;
+        }
+        *{
+            color:#cc6666;
+            margin-left:10px ;
+        }
+    
+        #Footer{
+            height: 80px;
+            background-color: grey;
+            margin-top: 5px;
+            border: 1px solid white;
+            margin-left: 0px;
+            
+        }
+        #box2{
+            margin-left: 37px;
+            border-radius: 10px;
+            background-color: whitesmoke;
+            height: 55px;
+            width: 93%;
+            margin-top: 10px;
+            
+        }
+        #fbox{
+            border: 1px solid white;
+            margin-left: 37px;
+            border-radius: 10px;
+            background-color: whitesmoke;
+            height: 55px;
+            width: 93%;
+            text-align: center;
+            margin-top: 7px;
+           
+        }
+        #ftext{
+            margin-top: 10px;
+            text-align: center;
+            color: blue;
+            
+            
+        }
+        #h2,.a{
+            text-align: center;
+            color: rgb(7, 114, 180);
+            padding-top: 15px;
+            line-height: 0.1px ;
+        }
+        
+       
+        .a{
+            font-size: x-small;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+            margin-right:7px; 
+            font-size: small;
+            
+        }
+        #nav{
+            text-align: center;
+        }
+        #P1,#P2{
+            border: 2px solid whitesmoke;
+            border-radius: 10px;
+            margin-bottom: 7px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            color: #cc6666;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #cc6666;
+        }
+        .table-title {
+            text-align: center;
+            color: #cc6666;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px 0;
+        }
+        td:last-child {
+            color: #cc6666;
+        }
+        #MyName,#MyEmail{
+            width: 95%;
+            margin-right: 100px;
+        }
+        
+        #Radio{
+            border: 3px solid whitesmoke;
+            border-radius: 10px;
+        }
+        input[type="Submit"]{
+            background-color: rgb(28, 27, 27);
+            color:white;
+            width: 97%;
+        
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <div id="box2"><div id="h2">Riwick Smith</div>
+                      <div class="a">Web Developer & Designer</div></div>
+        <div id="nav">
+            <a>About</a>
+            <a>Project</a>
+            <a>Contact</a>
+        </div>
+    </div>
+    <div>
+        <h2>About Me</h2>
+        <p>Hello,I'm Riwick Smith,a passionate web developer with a love for creating beautiful and functional website in HTML,CSS,Java Script and more.</p>
+        <br>
+        <h2>My Projects</h2>
+        <div id="P1">
+            <h4>Project 1</h4>
+            <p>A Description of project 1.Lorem ipsum dolor sit,amet consectetur adipiscing elit.</p>
+        </div>
+        <div id="P2">
+            <h4>Project 2</h4>
+            <p>A Description of project 1.Lorem ipsum dolor sit,amet consectetur adipiscing elit.</p>
+        </div>
+        <div class="table-title">Project Statistics</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Project</th>
+                    <th>Technologies</th>
+                    <th>Completion Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Project 1</td>
+                    <td>HTML, CSS, JavaScript</td>
+                    <td>June 2024</td>
+                </tr>
+                <tr>
+                    <td>Project 2</td>
+                    <td>React, Node.js</td>
+                    <td>August 2024</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h2>Contact Me</h2>
+        <div><label for="MyName">Name:<br></label><input type="text" name="Name" id="MyName"></div>
+        <br>
+        <div><label for="MyEmail">Email:<br></label><input type="email" name="Email" id="MyEmail"></div>
+        <br>
+        <div id="Radio">Preferred Contact Method<br>
+        Email<input type="radio" name="Email" id="">
+        Phone<input type="radio" name="Phone" id=""></div>
+        <br>
+        <input type="checkbox" name="box" id="check">Subscribe to newslater
+        <div id="Send"><input type="submit" value="Send"></div>
+        <div id="Footer">
+            <div id="fbox"><p id="ftext">&#xA9;2024 Riwick Smith.All rights reserved.</p></div>
+        </div>
+    </div>
+</body>
+</html>
